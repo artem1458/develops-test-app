@@ -8,7 +8,7 @@ import './app.css';
 const App = () => {
   return (
     <div className="app">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Route path="/" component={PostsPage} exact />
         <Route
           path="/posts/:id"
