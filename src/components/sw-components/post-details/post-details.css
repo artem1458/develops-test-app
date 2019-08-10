@@ -1,0 +1,13 @@
+.link-to-main {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 50%;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-to-main:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
